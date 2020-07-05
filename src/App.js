@@ -19,7 +19,7 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <strong>Sir Sorry for late submission because i was busy with university exams.</strong>
+      <strong>Sir I am really Sorry for late submission because i was busy with university exams.please accept</strong>
       <br></br>
       <strong>Hello from Babar Farooq</strong>
     </div>
