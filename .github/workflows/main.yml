@@ -33,7 +33,7 @@ jobs:
         cmd: install 
     
     - name: creating build
-      run: npm run build
+      run: npm run build --if-present
     
     - name: Installing surge
       run: npm install -g surge
