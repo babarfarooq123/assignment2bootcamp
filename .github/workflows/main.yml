@@ -30,12 +30,12 @@ jobs:
       with:
         cmd: install
     
-#     - name: creating build
-#       run: npm run build
-
-
+#     
     - name: Build Yarn and npm
       uses: linchpin/action-build-yarn-npm@master
+    
+    - name: creating build
+      run: npm run build
 
     
     - name: Installing surge
