@@ -29,13 +29,10 @@ jobs:
       uses: pascalgn/npm-publish-action@1.2.0
       with:
         cmd: install
-    
-#     
-    - name: Build Yarn and npm
-      uses: linchpin/action-build-yarn-npm@master
+
     
     - name: creating build
-      run: npm run build
+      run: npm build
 
     
     - name: Installing surge
